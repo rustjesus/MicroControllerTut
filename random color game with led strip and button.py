@@ -2,6 +2,7 @@ from machine import Pin
 import time
 import neopixel
 
+#THIS USES THE LED STRIP AS A OUTPUT FOR "WINNING" IF THE GAME ENDS ON THE LAST LIGHT THE LED STRIP CHANGES TO MULTI COLOR INSTEAD OF RED.
 # === GPIO LED Configuration ===
 led_pins = [
     Pin(20, Pin.OUT),
